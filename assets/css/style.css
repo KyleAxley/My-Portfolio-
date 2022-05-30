@@ -5,7 +5,7 @@
 }
 
 body {
-   background-color: #fff;
+   background-color: rgb(24, 23, 23);
 }
 
 /* header styling */
@@ -136,13 +136,13 @@ main section >div:first-child {
 }
 
 .bio h2 {
-    color: var(--Font-color);
+    color: rgb(240, 234, 234);
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
 
 .bio p {
-    color: var(--Font-color);
+    color: rgb(248, 240, 240);
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -160,6 +160,7 @@ main section >div:first-child {
     padding: 10px;
     justify-content: space-evenly;
     position: relative;
+
 }
 .projects h2 {
     color: var(--Font-color);
@@ -171,6 +172,7 @@ main section >div:first-child {
 
 .projects div {
     border-radius: 10px;
+    
 }
 
 .project {
@@ -196,6 +198,7 @@ main section >div:first-child {
     opacity: 80%;
     order: -1;
     border-radius: 10px;
+   
 }
 
 .project1 aside{
