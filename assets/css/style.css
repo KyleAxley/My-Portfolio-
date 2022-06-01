@@ -73,8 +73,7 @@ footer {
     font-family: var(--main-font);
     text-align: center;
     font-size: 20px;
-    background-size: cover;
-    background-position: 8%;
+    background-color: rgba(4, 46, 80, 0.747);
 }
 
 footer h4 {
