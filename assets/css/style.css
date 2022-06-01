@@ -5,9 +5,7 @@
 }
 
 body {
- background-image: url("../images/boiling.jpg");
- background-size: cover;
-
+    background-color: var(--main-color);
    
 }
 
@@ -75,10 +73,8 @@ footer {
     font-family: var(--main-font);
     text-align: center;
     font-size: 20px;
-    background-image: url("../images/food4.jpg");
     background-size: cover;
     background-position: 8%;
-    border: 5px solid rgba(4, 46, 80, 0.747);
 }
 
 footer h4 {
@@ -111,6 +107,10 @@ footer nav ul li a:hover {
     background-color:rgb(230, 106, 23);
 }
 
+.hero {
+    color: var(--Font-color);
+    text-align: end;
+}
 /* main styling */
 
 main {
@@ -163,7 +163,7 @@ main section >div:first-child {
     flex-wrap: wrap;
     border: 3px solid rgba(4, 46, 80, 0.747);
     border-radius: 30%;
-    height: 25vh;
+    height: 20vh;
 }
 
 /* projects section*/
@@ -345,7 +345,7 @@ main section >div:first-child {
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:500px) {
     .projects h2 {
         font-size: 30px;
     }
@@ -353,5 +353,9 @@ main section >div:first-child {
     .project1 {
         background-size: 200%;
         background-position: top;
+    }
+
+    .hero {
+        text-align: center;
     }
 }
