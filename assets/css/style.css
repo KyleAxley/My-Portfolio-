@@ -1,11 +1,14 @@
 :root {
     --Font-color: #dae2e2;
-    --main-color: rgba(3, 25, 44, 0.747);
+    --main-color: rgba(3, 25, 44, 0.979);
     --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-   background-color: var(--main-color);
+ background-image: url("../images/boiling.jpg");
+ background-size: cover;
+
+   
 }
 
 /* header styling */
@@ -135,12 +138,14 @@ main section >div:first-child {
     font-family: var(--main-font);
     font-size: 20px;
 
+
 }
 
 .bio h2 {
     color: rgb(240, 234, 234);
     text-align: center;
     text-shadow: 1px 1px 1px black;
+   
 }
 
 .bio p {
@@ -151,12 +156,14 @@ main section >div:first-child {
     align-content: center;
     border-left: 5px solid rgba(4, 46, 80, 0.747);
 
-   
 }
 
 .bio img {
+    display: flex;
+    flex-wrap: wrap;
     border: 3px solid rgba(4, 46, 80, 0.747);
-    border-radius: 50%;
+    border-radius: 30%;
+    height: 25vh;
 }
 
 /* projects section*/
@@ -203,7 +210,7 @@ main section >div:first-child {
     background-size:cover;
     background-position: left;
     background-attachment: inherit;
-    height: 40vh;
+    height: 35vh;
     align-items: flex-start;
     flex-direction:column-reverse;
     opacity: 80%;
@@ -239,7 +246,7 @@ main section >div:first-child {
     background-size:cover;
     background-position: center;
     background-attachment:inherit;
-    min-height: 15vh;
+    height: 20vh;
     align-items: flex-start;
     flex-direction: column-reverse;
     opacity: 80%;
@@ -274,7 +281,7 @@ main section >div:first-child {
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
-    min-height: 15vh;
+    height: 20vh;
     align-items: flex-start;
     flex-direction: column-reverse;
     opacity: 80%;
@@ -309,7 +316,7 @@ main section >div:first-child {
     background-size: cover;
     background-position: left;
     background-attachment: inherit;
-    min-height: 15vh;
+    height: 20vh;
     align-items: flex-start;
     flex-direction: column-reverse;
     opacity: 80%;
@@ -338,7 +345,7 @@ main section >div:first-child {
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     .projects h2 {
         font-size: 30px;
     }
