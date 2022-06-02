@@ -345,13 +345,9 @@ main section >div:first-child {
 
 
 @media screen and (max-width:500px) {
-    .projects h2 {
-        font-size: 30px;
-    }
 
-    .project1 {
-        background-size: 200%;
-        background-position: top;
+    .bio {
+        flex-direction: column;
     }
 
     .hero {
